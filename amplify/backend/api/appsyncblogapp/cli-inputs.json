@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "appsyncblogapp",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "C:\\Users\\Naseem\\Projects\\blogapp\\amplify\\backend\\api\\appsyncblogapp\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 365,
+      "apiKeyExpirationDate": "2023-02-23T15:39:13.986Z",
+      "keyDescription": "public api key"
+    },
+    "conflictResolution": {},
+    "additionalAuthTypes": [
+      {
+        "mode": "AMAZON_COGNITO_USER_POOLS",
+        "cognitoUserPoolId": "authappsyncblogapp94ae2059"
+      }
+    ]
+  }
+}
